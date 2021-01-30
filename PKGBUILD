@@ -1,5 +1,5 @@
 pkgname=cdargs
-pkgver=2.0
+pkgver=2.1
 pkgrel=1
 pkgdesc="A replacement for 'cd' that includes bookmarks/browsing for faster navigation"
 arch=('x86_64')
@@ -9,7 +9,7 @@ screenshot="http://konsole.kde.org/images/konsole_icon_48.png"
 depends=('ncurses' 'gcc-libs')
 install=cdargs.install
 source=("$pkgname-$pkgver.tar.gz::https://github.com/cbxbiker61/cdargs/archive/$pkgver.tar.gz")
-md5sums=('93d2d0b3d9af0c3381648ec55dd11d3b')
+md5sums=('00544c999625a4879cf36d7e11bed5bc')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
